@@ -2,8 +2,8 @@ from django.http import HttpResponse
 import json
 import requests
 def mi_vista(request):
-    api_key = 'TU_API_KEY_DE_TMDB'
-    movie_id = 'ID_DE_LA_PELICULA'
+    #api_key = 'TU_API_KEY_DE_TMDB'
+    #movie_id = 'ID_DE_LA_PELICULA'
     url = f'https://api.themoviedb.org/3/movie/popular?api_key=8c84367d103d5239463d287812d5bafc'
     response = requests.get(url)
 
